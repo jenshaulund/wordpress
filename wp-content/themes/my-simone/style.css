@@ -274,8 +274,8 @@ textarea {
 	color: #404040;
 	color: hsl(0, 0%, 25%);
 	font-family: 'PT Serif', serif;
-	font-size: 16px;
-	font-size: 1.6rem;
+	font-size: 18px;
+	font-size: 1.8rem;
 	line-height: 1.5;
 }
 
@@ -759,6 +759,31 @@ a:active {
 	clear: both;
 }
 
+/*--------------------------------------------------------------
+# Header JNH
+--------------------------------------------------------------*/
+.site-branding {
+	padding: 6rem 0;
+	text-align: center;
+	background: #2686ba;
+	background: hsl(202, 62%, 45%);
+}
+
+.site-title {
+	font-weight: 700;
+	font-size: 40px;
+	font-size: 4.5rem;
+	text-transform: uppercase;
+	line-height: normal;
+	padding-bottom: 1rem;
+}
+
+.site-description {
+	font-family: 'Lato', sans-serif;
+ 	font-weight: 100;
+	font-size: 20px;
+	font-size: 2rem;
+}
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
