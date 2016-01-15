@@ -1,0 +1,2 @@
+[02-Jan-2016 13:44:39 CST6CDT] PHP Fatal error:  require_once(): Failed opening required '/home/jensrune/public_html/wordpress/wp-load.php' (include_path='.:/usr/local/php55/pear') in /home/jensrune/public_html/wordpress/wp-blog-header.php on line 12
+[02-Jan-2016 13:45:40 CST6CDT] PHP Fatal error:  require_once(): Failed opening required '/home/jensrune/public_html/wordpress/wp-load.php' (include_path='.:/usr/local/php55/pear') in /home/jensrune/public_html/wordpress/wp-blog-header.php on line 12

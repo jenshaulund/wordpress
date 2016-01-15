@@ -1,6 +1,6 @@
 <?php
 /**
- * my-simone Theme Customizer.
+ * my-simone Theme Customizer
  *
  * @package my-simone
  */

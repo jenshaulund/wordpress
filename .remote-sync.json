@@ -1,0 +1,13 @@
+{
+  "transport": "ftp",
+  "uploadOnSave": true,
+  "deleteLocal": false,
+  "hostname": "www.runefilms.com",
+  "target": "www/wordpress",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "jensrune@runefilms.com",
+  "password": "Gett1ngThatV1d30Th1ng!!"
+}
