@@ -1,10 +1,13 @@
 <?php
 /**
- * Taxonomi archive page
+ * The template for displaying Archive pages.
+ *
+ * Learn more: http://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package my-simone
  */
 
 get_header(); ?>
-<?php echo "taxonomy.php" ?>
 
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
@@ -13,11 +16,7 @@ get_header(); ?>
 
 			<header class="page-header">
 				<h1 class="page-title">
-					<?php
-					$current_term = get_queried_object();
-					$taxonomy = get_taxonomy($current_term->taxonomy);
-					echo $taxonomy->label . ': ' . $current_term->name;
-					?>
+				NameName
 				</h1>
 				<?php
 					// Show an optional term description.

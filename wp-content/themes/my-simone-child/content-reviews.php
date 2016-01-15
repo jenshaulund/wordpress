@@ -4,6 +4,7 @@
  */
 ?>
 
+<?php echo("content-reviews.php"); ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
     <?php

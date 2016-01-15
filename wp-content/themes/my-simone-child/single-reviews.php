@@ -5,6 +5,8 @@
  * @package my-simone
  */
 
+echo("single-reviews.php");
+
 get_header(); ?>
 
 	<div id="primary" class="content-area">
