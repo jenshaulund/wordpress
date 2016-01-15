@@ -8,3 +8,13 @@
 */
 
 @import url("../my-simone/style.css");
+
+.taxonomies {
+  font-family: 'Lato';
+  font-size: 90%;
+  margin-bottom: 2rem;
+}
+
+.taxonomies a {
+  font-weight: 600;
+}

@@ -94,7 +94,7 @@ $args = array(
     'query_var'         => true,
     'rewrite'           => array( 'slug' => 'product-types' ),
 );
-register_taxonomy( 'products', array( 'reviews', 'post' ), $args );
+register_taxonomy( 'product-types', array( 'reviews', 'post' ), $args );
 
 
 // Mood taxonomy (non-hierarchical)
@@ -127,7 +127,7 @@ $args = array(
     'rewrite'               => array( 'slug' => 'moods' ),
 );
 
-register_taxonomy( 'mood', array( 'reviews', 'post' ), $args );
+register_taxonomy( 'moods', array( 'reviews', 'post' ), $args );
 
 // Price Range taxonomy (non-hierarchical)
 $labels = array(
@@ -159,7 +159,7 @@ $args = array(
     'rewrite'               => array( 'slug' => 'prices' ),
 );
 
-register_taxonomy( 'price', array( 'reviews' ), $args );
+register_taxonomy( 'prices', array( 'reviews' ), $args );
 
 }
  add_action( 'init', 'my_custom_taxonomies');
