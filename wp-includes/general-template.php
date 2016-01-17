@@ -159,6 +159,7 @@ function get_template_part( $slug, $name = null ) {
 	 * @param string $slug The slug name for the generic template.
 	 * @param string $name The name of the specialized template.
 	 */
+	//  echo("slug ''". $slug ."'', name". $name);
 	do_action( "get_template_part_{$slug}", $slug, $name );
 
 	$templates = array();
