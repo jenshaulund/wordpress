@@ -3,7 +3,7 @@
  * @package my-simone
  */
 ?>
-
+<?php echo("content.php in child theme"); ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <?php
     if( $wp_query->current_post == 0 && !is_paged() && is_front_page() ) { // Custom template for the first post on the front page
@@ -28,6 +28,10 @@
             echo '</a>';
             echo '</div>';
         }
+    }
+    ?>
+    <?php if( 'reviews' == get_post_type()){
+      echo '<div class="reviews-header">Review</div>';
     }
     ?>
 	<header class="entry-header">
