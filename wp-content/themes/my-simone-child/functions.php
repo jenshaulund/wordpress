@@ -11,17 +11,16 @@ function rf_add_reviews( $query ){
 			$query->set( 'post_type', array( 'post', 'reviews'));
 		}
 	}
-
 }
 
 add_action( 'pre_get_posts', 'rf_add_reviews' );
 
 function custom_excerpt_length( $length ) {
-	return 20;
+	return 30;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
 function new_excerpt_more( $more ) {
-	return ' [.....]';
+	return ' [....]';
 }
 add_filter('excerpt_more', 'new_excerpt_more');
