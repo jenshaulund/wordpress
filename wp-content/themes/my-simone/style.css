@@ -796,8 +796,8 @@ X.X Header
 .site-branding {
     padding: 6rem 0;
     text-align: center;
-    background: #2c86ba;
-    background: hsl(202, 62%, 45%);
+    /*background: #2c86ba;
+    background: hsl(202, 62%, 45%);*/
 }
 .title-box {
     width: 600px;
