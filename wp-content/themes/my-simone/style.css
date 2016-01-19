@@ -64,7 +64,10 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	outline: 0;
 	padding: 0;
 	vertical-align: baseline;
+<<<<<<< HEAD
+=======
 	/*background-color: red;*/
+>>>>>>> ad6d484f61bb2eb786df5b7a019deadb39684c2b
 }
 html {
 	font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
