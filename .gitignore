@@ -9,3 +9,6 @@ ehthumbs.db
 Thumbs.db
 
 wp-config.php
+wp-admin
+wp-includes
+
