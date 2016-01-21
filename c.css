@@ -10,7 +10,7 @@ p {
   /*position: relative;*/
   left: 100px;
   top: 200px;
-  border: solid;
+  /*border: solid;*/
 }
 .p1  {
   position: relative;
@@ -20,25 +20,25 @@ h1 {
   /*position: relative;*/
   left: 100px;
   top: 200px;
-  border: solid;
+  /*border: solid;*/
 }
 
 h2 {
   /*position: relative;*/
   left: 100px;
   top: 200px;
-  border: solid;
-  float: left;
+  /*border: solid;*/
+  float: right;
 }
 
 h3 {
   position: fixed;
   left: 50px;
   top: 200px;
-  border: solid;
+  /*border: solid;*/
 }
 
 .d1 {
   position: relative;
-  border: solid;
+  /*border: solid;*/
 }
