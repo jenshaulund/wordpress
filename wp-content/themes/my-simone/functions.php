@@ -105,6 +105,8 @@ function my_simone_scripts() {
 
         wp_enqueue_style('my-simone-google-fonts', 'http://fonts.googleapis.com/css?family=Lato:100,400,700,900,400italic,900italic|PT+Serif:400,700,400italic,700italic');
 
+				wp_enqueue_style('my-simone-google-fonts-1', 'https://fonts.googleapis.com/css?family=Roboto:400,30');
+
         wp_enqueue_Style( 'my-simone-fontawesome', 'http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css' );
 
         wp_enqueue_script( 'my-simone-superfish', get_template_directory_uri() . '/js/superfish.min.js', array('jquery'), '20140404', true );
