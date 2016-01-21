@@ -12,8 +12,10 @@
  */
 
 get_header(); ?>
-In INDEX.PHP
-
+In CHILD INDEX.PHP
+  <?php get_template_part( 'testimonials-template' ); ?>
+  <!-- <br> -->
+  after template
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
