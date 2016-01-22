@@ -18,6 +18,11 @@ p {
   background-color: hsl( 0, 0%, 70%);
 
 }
+.p2  {
+  position: relative;
+  background-color: hsl( 0, 0%, 60%);
+
+}
 
 h1 {
   /*position: relative;*/
@@ -51,7 +56,7 @@ div {
 .d1 {
   height: 300px;
   width: 300px;
-  background-color: hsl( 0, 0%, 70%);
+  background-color: hsl( 0, 0%, 75%);
   position: relative;
   float: left;
   /*border: solid;*/
@@ -63,4 +68,15 @@ div {
   /*width: 300px;*/
   position: relative;
   /*border: solid;*/
+}
+
+.container {
+  background-color: red;
+  width: 80%;
+  margin: 0px auto;
+}
+
+p.clearfix {
+  clear: both;
+
 }
