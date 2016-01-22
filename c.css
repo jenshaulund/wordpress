@@ -1,5 +1,6 @@
 body {
   /*position: relative;*/
+  background-color: hsl( 0, 0%, 50%);
 }
 
 body, p {
@@ -8,18 +9,21 @@ body, p {
 
 p {
   /*position: relative;*/
-  left: 100px;
-  top: 200px;
+  /*left: 100px;*/
+  /*top: 100px;*/
   /*border: solid;*/
 }
 .p1  {
   position: relative;
+  background-color: hsl( 0, 0%, 70%);
+
 }
 
 h1 {
   /*position: relative;*/
   left: 100px;
   top: 200px;
+  background-color: hsl( 0, 0%, 70%);
   /*border: solid;*/
 }
 
@@ -27,18 +31,36 @@ h2 {
   /*position: relative;*/
   left: 100px;
   top: 200px;
+  background-color: hsl( 0, 0%, 70%);
   /*border: solid;*/
   float: right;
 }
 
 h3 {
-  position: fixed;
+  /*position: fixed;*/
   left: 50px;
   top: 200px;
+  background-color: hsl( 0, 0%, 70%);
+
   /*border: solid;*/
 }
 
+div {
+  padding: 1em;
+}
 .d1 {
+  height: 300px;
+  width: 300px;
+  background-color: hsl( 0, 0%, 70%);
+  position: relative;
+  float: left;
+  /*border: solid;*/
+}
+.d2 {
+  background-color: hsl( 0, 0%, 70%);
+  /*float: left;*/
+  /*height: 300px;*/
+  /*width: 300px;*/
   position: relative;
   /*border: solid;*/
 }
