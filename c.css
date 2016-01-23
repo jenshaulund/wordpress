@@ -52,6 +52,9 @@ h3 {
 
 div {
   padding: 1em;
+  border: solid;
+  border-width: 1px 1px 0 1px;
+
 }
 .d1 {
   height: 300px;
@@ -62,12 +65,13 @@ div {
   /*border: solid;*/
 }
 .d2 {
+  left: 0;
+  top: 50px;
   background-color: hsl( 0, 0%, 70%);
-  /*float: left;*/
-  /*height: 300px;*/
-  /*width: 300px;*/
+  float: left;
+  height: 300px;
+  width: 300px;
   position: relative;
-  /*border: solid;*/
 }
 
 .container {
