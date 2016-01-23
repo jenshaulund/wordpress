@@ -11,9 +11,7 @@
   echo '<aside id="testimonials" class"clear">';
   while( $testimonials->have_posts()) {
     $testimonials->the_post();
-
-    the_title();
-    the_time();
+    echo '<div class="testimonials-items">'; the_title(); the_time(); echo '</div>';
     // the_category();
     // the_content();
     // $testimonials->the_post();

@@ -35,3 +35,12 @@ body {
   text-transform: uppercase;
   color: #fff;
 }
+
+.testimonials-items {
+  display: inline;
+  margin: 0;
+  padding: 1em;
+  background-color: white;
+  font-family: 'Lato';
+  font-size: .8em;
+}
