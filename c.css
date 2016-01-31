@@ -50,11 +50,25 @@ h3 {
   /*border: solid;*/
 }
 
+.container {
+  background-color: red;
+  width: 80%;
+  margin: 0px auto;
+  position: relative;
+}
+
 div {
   padding: 1em;
   border: solid;
   border-width: 1px 1px 0 1px;
+}
 
+div#tooltip_container{
+  border: none;
+  background-color: #333333;
+  /*display: none;*/
+  position: absolute;
+  float: left;
 }
 .d1 {
   height: 300px;
@@ -64,6 +78,7 @@ div {
   float: left;
   /*border: solid;*/
 }
+
 .d2 {
   left: 0;
   top: 50px;
@@ -74,13 +89,6 @@ div {
   position: relative;
 }
 
-.container {
-  background-color: red;
-  width: 80%;
-  margin: 0px auto;
-}
-
 p.clearfix {
   clear: both;
-
 }
