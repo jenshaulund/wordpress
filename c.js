@@ -9,9 +9,9 @@ $(document).ready(function(){
     }
   }).mousemove(function(e){
     // alert('move')
-    $('#tooltip_container').css('left', e.pageX);
+    $('#tooltip_container').css('left', (e.pageX + 20) + 'px');
     // $('#tooltip_container').css('left', '200px');
-    $('#tooltip_container').css('top', e.pageY);
+    $('#tooltip_container').css('top', (e.pageY + 20) + 'px');
     // $('#tooltip_container').css('top', '400px');
 
 
